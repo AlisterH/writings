@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="bible" _name="Alister's Bible markup" version="2.0" _section="Markup">
+  <metadata>
+    <property name="mimetypes">text/plain</property>
+  </metadata>
+  <styles>
+    <style id="doubleanglebrackets" _name=""  map-to="def:doubleanglebrackets" />
+    <style id="curlybrackets" _name=""  map-to="def:curlybrackets" />
+    <style id="squarebrackets" _name=""  map-to="def:squarebrackets" />
+    <style id="versereference"  _name="" map-to="def:versereference" />
+    <style id="rotherham"  _name="" map-to="def:rotherham" />
+  </styles>
+  <definitions>
+    <context id="bible">
+      <include>
+        <context id="JBR" style-ref="rotherham">
+          <start>^JBR</start>
+          <end>$</end>
+        </context>
+        <context id="doubleanglebrackets" style-ref="doubleanglebrackets">
+          <start>&lt;&lt;</start>
+          <end>>></end>
+        </context>
+        <context id="curly" style-ref="curlybrackets">
+          <start>{</start>
+          <end>}</end>
+        </context>
+        <context id="square" style-ref="squarebrackets">
+          <start>\[</start>
+          <end>\]</end>
+        </context>
+        <context id="reference" style-ref="versereference">
+          <start>^</start>
+          <end>\t</end>
+        </context>
+      </include>
+    </context>
+  </definitions>
+</language>

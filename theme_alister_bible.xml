@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="alister_bible" _name="Alister-bible" version="1.0">
+
+	<author>Alister</author>
+	<_description>for use with my custom bible markup</_description>
+
+  <!-- Palette -->
+  <color name="blue"       value="#0000FF"/>
+  <color name="violet"     value="#6A5ACD"/>
+  <color name="cyan"       value="#008A8C"/>
+  <color name="magenta"    value="#d600cf"/>
+  <color name="green"      value="#2E8B57"/>
+  <color name="bordeaux"   value="#A52A2A"/>
+  <color name="red"        value="#FF0000"/>
+  <color name="yellow"     value="#FFFF00"/>
+  <color name="purple"     value="#A020F0"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="#white" background="#grey" bold="true"/>
+  <style name="bracket-mismatch"            foreground="#white" background="#red" bold="true"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                background="yellow"/>  
+  
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="blue"/>
+  <style name="def:shebang"                 foreground="blue" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="magenta"/>
+  <style name="def:special-char"            foreground="violet"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="cyan"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="bordeaux" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="green" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="purple"/>
+  <style name="def:error"                   background="red" bold="true"/>
+  <style name="def:note"                    foreground="blue" background="yellow" bold="true"/>
+  <style name="def:underlined"              italic="true" underline="true"/>
+
+  <!-- Language specific styles -->
+  <style name="diff:added-line"             foreground="#008B8B"/>
+  <style name="diff:removed-line"           foreground="#6A5ACD"/>
+  <style name="diff:changed-line"           use-style="def:preprocessor"/>
+  <style name="diff:special-case"           use-style="def:constant"/>
+  <style name="diff:location"               use-style="def:statement"/>
+  <style name="diff:diff-file"              use-style="def:type"/>
+
+  <style name="xml:tags"                    foreground="cyan"/>
+  <style name="xml:attribute-name"          foreground="violet"/>
+  <style name="xml:namespace"               foreground="green" bold="true"/>
+
+  <style name="js:object"                   foreground="#2E8B57" bold="true"/>
+  <style name="js:constructors"             foreground="#008B8B"/>
+
+  <style name="latex:display-math"          foreground="#6A5ACD"/>
+  <style name="latex:command"               foreground="#2E8B57" bold="true"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+
+  <style name="sh:variable"                 foreground="#6A5ACD"/>
+
+  <!-- legacy styles for old lang files -->
+  <style name="Others"                      foreground="#2E8B57" bold="true"/>
+  <style name="Others 2"                    foreground="#008B8B"/>
+  <style name="Others 3"                    foreground="#6A5ACD"/>
+
+<!-- Everything above here copied from the classic colour scheme... except I needed to change their magenta -->
+
+	<color name="doubleanglebrackets_color" value="#d600cf"/>
+	<color name="squarebrackets_color" value="#0006bd"/>
+	<color name="curlybrackets_color" value="#000000"/>
+	<color name="versereference_color" value="#000000"/>
+	<color name="rotherham_color" value="#856036"/>
+	<color name="bracketmatch_color" value="#856036"/>
+	<color name="text_bg" value="#c9c9c9"/>
+
+	<style name="def:curlybrackets" foreground="curlybrackets_color" italic="true"/>
+	<style name="def:squarebrackets" foreground="squarebrackets_color"/>
+	<style name="def:versereference" foreground="versereference_color" bold="true"/>
+	<style name="def:rotherham" foreground="rotherham_color"/>
+	<style name="def:doubleanglebrackets" foreground="doubleanglebrackets_color"/>
+	<style name="bracket-match" foreground="#white" background="bracketmatch_color"/>
+	<style name="text" background="text_bg"/>
+	<style name="current-line" background="#white"/>
+
+</style-scheme>
