@@ -13,7 +13,7 @@
   <definitions>
     <context id="bible">
       <include>
-        <context id="JBR" style-ref="rotherham">
+        <context id="JBR" style-ref="rotherham" class="no-spell-check">
           <start>^JBR</start>
           <end>$</end>
         </context>
@@ -29,7 +29,7 @@
           <start>\[</start>
           <end>\]</end>
         </context>
-        <context id="reference" style-ref="versereference">
+        <context id="reference" style-ref="versereference" class="no-spell-check">
           <start>^</start>
           <end>\t</end>
         </context>
