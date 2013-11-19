@@ -6,9 +6,9 @@
   <styles>
     <style id="doubleanglebrackets" _name=""  map-to="def:constant" />
     <style id="curlybrackets" _name=""  map-to="def:doc-comment-element" />
-    <style id="squarebrackets" _name=""  map-to="def:identifier" />
+    <style id="squarebrackets" _name=""  map-to="def:comment" />
     <style id="versereference"  _name="" map-to="def:type" />
-    <style id="rotherham"  _name="" map-to="def:code" />
+    <style id="rotherham"  _name="" map-to="def:identifier" />
   </styles>
   <definitions>
     <context id="bible">
