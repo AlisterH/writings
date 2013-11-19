@@ -4,11 +4,11 @@
     <property name="mimetypes">text/plain</property>
   </metadata>
   <styles>
-    <style id="doubleanglebrackets" _name=""  map-to="def:doubleanglebrackets" />
-    <style id="curlybrackets" _name=""  map-to="def:curlybrackets" />
-    <style id="squarebrackets" _name=""  map-to="def:squarebrackets" />
-    <style id="versereference"  _name="" map-to="def:versereference" />
-    <style id="rotherham"  _name="" map-to="def:rotherham" />
+    <style id="doubleanglebrackets" _name=""  map-to="def:statement" />
+    <style id="curlybrackets" _name=""  map-to="def:doc-comment-element" />
+    <style id="squarebrackets" _name=""  map-to="def:identifier" />
+    <style id="versereference"  _name="" map-to="def:type" />
+    <style id="rotherham"  _name="" map-to="def:shebang" />
   </styles>
   <definitions>
     <context id="bible">
